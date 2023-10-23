@@ -20,7 +20,7 @@ const projectsData = [
         description: "My Personal Portfolio: React, Next.js, Tailwind",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
         previewUrl: "/"
     }
 ]
