@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: "Node Wallet Website",
-        description: "Atlas Wallet: Node.js, Express, Bcrypt.js, MongoDB",
+        description: "Atlas Wallet: Node.js, Express, Bcrypt.js, MongoDB, PayPal",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Atlas-Proyecto-Full-Stack",
@@ -22,6 +22,15 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
         previewUrl: "/"
+    },
+    {
+        id: 3,
+        title: "Next.js Dashboard App",
+        description:"Next.js App Router Course (by Vercel): TypeScript, Next.js, PostgreSQL",
+        image: "/images/projects/3.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Nesticopng/DB-Next.js",
+        previewUrl: "https://db-next-js.vercel.app/"
     }
 ]
 
