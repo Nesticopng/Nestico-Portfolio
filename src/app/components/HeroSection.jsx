@@ -34,7 +34,7 @@ const HeroSection = () => {
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
 ¡Hola! Soy Néstor, un apasionado programador en continuo aprendizaje. Este es mi espacio digital, donde la innovación y la creatividad se unen. Te invito a explorar mi portafolio y a conocer mi camino en el mundo del desarrollo.</p>
           <div> 
-            <Link to='contact-section' smooth={true} duration={500} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:px-16 transition-all duration-300 ease-in-out hover:bg-slate-200 shadow hover:shadow-lg text-white cursor-pointer'>Hire Me</Link>
+            <Link to='contact-section' smooth={true} duration={500} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:px-16 transition-all duration-300 ease-in-out hover:bg-slate-200 shadow hover:shadow-lg text-white cursor-pointer'>Contáctame</Link>
           </div>
         </motion.div>
         <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
