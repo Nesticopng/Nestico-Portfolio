@@ -6,11 +6,11 @@ const AnimatedNumbers = dynamic(() => {return import ("react-animated-numbers")}
 
 const achiviementsList = [
     {
-        metric: "Projects",
+        metric: "Proyectos",
         value: 5
     },
     {
-        metric: "Years",
+        metric: "Años",
         value: 1
     }
 ]
