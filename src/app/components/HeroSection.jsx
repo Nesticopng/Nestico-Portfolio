@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.4 }} className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600'>Hello, I'm{" "}</span>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600'>Hola, Soy{" "}</span>
             <br/>
             <TypeAnimation
               sequence={[
@@ -19,7 +19,7 @@ const HeroSection = () => {
                 1500, 
                 'Web Developer',
                 1500,
-                'Creative',
+                'Creativo',
                 1500,
                 'Gamer',
                 1500,
@@ -32,8 +32,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-          Hello! I'm Nestico, a dedicated programmer in constant evolution. Welcome to my digital corner, where technology comes to life. Explore my portfolio and discover my journey through the world of development.
-          </p>
+¡Hola! Soy Néstor, una apasionada programadora en continuo aprendizaje. Este es mi espacio digital, donde la innovación y la creatividad se unen. Te invito a explorar mi portafolio y a conocer mi camino en el mundo del desarrollo.</p>
           <div> 
             <Link to='contact-section' smooth={true} duration={500} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:px-16 transition-all duration-300 ease-in-out hover:bg-slate-200 shadow hover:shadow-lg text-white cursor-pointer'>Hire Me</Link>
           </div>
