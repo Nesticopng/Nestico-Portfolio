@@ -41,12 +41,10 @@ const EmailSection = () => {
     <section id="contact-section" className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-1 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className='z-10'>
-          <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
+          <h5 className='text-xl font-bold text-white my-2'>Contáctame</h5>
           <p className='text-[#ADB7BE] mb-4 max-w-md'>
             {" "}
-            I'm currently looking for new opportunities, my inbox is always open.
-            Whether you have a question or just want to say hi, I'll try my best
-            to get back to you!
+            Actualmente estoy en busca de nuevas oportunidades, mi bandeja de entrada siempre está abierta. puedes contactarme cuando quieras, ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré mi mejor esfuerzo para responderte!
           </p>
         <div className='socials flex flex-row gap-5'>
           <Link href="https://www.linkedin.com/in/n%C3%A9stor-cano-12a051276/" target="_blank" className='mr-1'>
@@ -67,7 +65,7 @@ const EmailSection = () => {
               htmlFor="email"
               className="text-white block mb-2 text-sm font-medium"
             >
-              Your email
+              Tu email
             </label>
             <input
               name='email'
@@ -75,7 +73,7 @@ const EmailSection = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="john@example.com"
+              placeholder="jose@example.com"
             />
           </div>
           <div className="mb-6">
@@ -83,7 +81,7 @@ const EmailSection = () => {
               htmlFor="subject"
               className="text-white block text-sm mb-2 font-medium"
             >
-              Subject
+              Asunto
             </label>
             <input
               name='subject'
@@ -91,7 +89,7 @@ const EmailSection = () => {
               id="subject"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Just saying hi"
+              placeholder="Estoy pensando en..."
             />
           </div>
           <div className="mb-6">
@@ -99,25 +97,25 @@ const EmailSection = () => {
               htmlFor="message"
               className="text-white block text-sm mb-2 font-medium"
             >
-              Message
+              Mensaje
             </label>
             <textarea
               name='message'
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about..."
+              placeholder="Vamos a hablar de..."
             />
           </div>
           <button
             type="submit"
             className="bg-primary-500 hover:bg-primary-600 transition duration-300 ease-in-out text-white font-medium py-2.5 px-5 rounded-lg w-full"
           >
-            Send Message
+            Enviar Mensaje
           </button>
           {
             emailSubmitted && (
               <p className='text-green-500 text-sm mt-2'>
-                Email sent successfully!
+                Email enviado!
               </p>
             )
           }

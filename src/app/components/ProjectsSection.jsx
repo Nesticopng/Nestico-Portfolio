@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "React Portfolio Website",
-        description: "My Personal Portfolio: React, Next.js, Tailwind",
+        description: "Mi Portfolio Personal: React, Next.js, Tailwind",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
 
     return (
         <section id="projects-section">
-            <h2 className='text-center text-white text-4xl font-bold mt-4 mb-8 md:mb-12'>My Projects</h2>
+            <h2 className='text-center text-white text-4xl font-bold mt-4 mb-8 md:mb-12'>Mis Proyectos</h2>
             <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
                 <ProjectTag 
                     onClick={handledTagChange} 

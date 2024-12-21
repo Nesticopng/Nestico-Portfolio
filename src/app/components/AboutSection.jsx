@@ -23,8 +23,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul>
-                <li>Full Stack Developer (MEN) - EDTécnica</li>
-                <li>Statistical Sciences - Central University of Venezuela </li>
+                <li>Full Stack Developer (MERN) - EDTécnica</li>
+                <li>Ciencias Estadísticas - Universidad Central de Venezuela </li>
             </ul>
         )
     }
@@ -45,14 +45,9 @@ const AboutSection = () => {
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
                 <Image src="/images/About-Image.png" width={500} height={500} alt=''/>  
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                    <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
+                    <h2 className='text-4xl font-bold text-white mb-4'>Sobre Mí</h2>
                     <p className="text-base lg:text-lg">
-                        I am a full stack web developer with a passion for creating
-                        interactive and responsive web applications. I have experience
-                        working with JavaScript, Node.js, React, Next.js, TypeScript, Express, Discord
-                        and Git. I am a quick learner and I am always
-                        looking to expand my knowledge and skill set. I'm a team player and
-                        I'm excited to work with others to create amazing applications.
+Soy un desarrollador web full stack con pasión por crear aplicaciones web interactivas y optimizadas. Tengo experiencia trabajando con JavaScript, Node.js, React, Next.js, TypeScript, Express, Python y Git. Aprendo rápido y siempre busco expandir mis conocimientos y habilidades. Me gusta trabajar en equipo y colaborar con otros para crear aplicaciones increíbles.
                     </p>
                     <div className='flex flex-row mt-8'>
                         <TabButton 
@@ -60,14 +55,14 @@ const AboutSection = () => {
                         active={tab === "skills"}
                         >
                         {" "}
-                            Skills{" "}
+                            Habilidades{" "}
                         </TabButton>
                         <TabButton 
                         selectTab={() => handledTabChange("education")} 
                         active={tab === "education"}
                         >
                         {" "}
-                            Education{" "}
+                            Educación{" "}
                         </TabButton>
                     </div>
                     <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>

@@ -14,15 +14,15 @@ const rubik = Rubik({
 
 const NavLinks = [
     {
-        title: "About",
+        title: "Sobre Mí",
         path: "about-section",
     },
     {
-        title: "Projects",
+        title: "Proyectos",
         path: "projects-section",
     },
     {
-        title: "Contact",
+        title: "Contacto",
         path: "contact-section",
     },
 ];
