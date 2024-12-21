@@ -7,7 +7,7 @@ import { motion, useInView } from 'framer-motion'
 const projectsData = [
     {
         id: 1,
-        title: "Node Wallet Website",
+        title: "Wallet Website",
         description: "Atlas Wallet: Node.js, Express, Bcrypt.js, MongoDB, PayPal",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
@@ -16,8 +16,8 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "React Portfolio Website",
-        description: "Mi Portfolio Personal: React, Next.js, Tailwind",
+        title: "Portfolio Website",
+        description: "Mi Portfolio Personal: React, Next.js, Tailwind, Resend, Framer Motion",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
@@ -25,9 +25,18 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "Next.js Dashboard App",
-        description:"Next.js App Router Course (by Vercel): TypeScript, Next.js, PostgreSQL",
+        title: "Rent a Car",
+        description:"Next.js Car Rental Website: TypeScript, Next.js, GraphQL, Clerk, DaisyUI",
         image: "/images/projects/3.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Nesticopng/Rent-A-Car-Next.js",
+        previewUrl: "https://rent-a-car-next-js.vercel.app/"
+    },
+    {
+        id: 4,
+        title: "Dashboard App",
+        description:"Next.js App Router Course (by Vercel): TypeScript, Next.js, PostgreSQL",
+        image: "/images/projects/4.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/DB-Next.js",
         previewUrl: "https://db-next-js.vercel.app/"
