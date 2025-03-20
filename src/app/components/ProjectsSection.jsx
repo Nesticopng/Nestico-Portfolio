@@ -9,34 +9,43 @@ const projectsData = [
         id: 1,
         title: "Wallet Website",
         description: "Atlas Wallet: Node.js, Express, Bcrypt.js, MongoDB, PayPal",
-        image: "/images/projects/1.png",
+        image: "/images/projects/atlas.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Atlas-Proyecto-Full-Stack",
         previewUrl: "https://atlas-fgav.onrender.com/"
     },
     {
         id: 2,
-        title: "Portfolio Website",
-        description: "Mi Portfolio Personal: React, Next.js, Tailwind, Resend, Framer Motion",
-        image: "/images/projects/2.png",
+        title: "Rental Car Stats",
+        description: "Rent a Car Stats: Python, Streamlit, Pandas, Numpy, matplotlib, Seaborn",
+        image: "/images/projects/rc-stats.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
-        previewUrl: "/"
+        gitUrl: "https://github.com/Nesticopng/Rental-Car-Stats",
+        previewUrl: "https://rental-car-stats.onrender.com"
     },
     {
         id: 3,
         title: "Rent a Car",
         description:"Next.js Car Rental Website: TypeScript, Next.js, GraphQL, Clerk, DaisyUI",
-        image: "/images/projects/3.png",
+        image: "/images/projects/rc.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/Rent-A-Car-Next.js",
         previewUrl: "https://rent-a-car-next-js.vercel.app/"
     },
     {
         id: 4,
+        title: "Portfolio Website",
+        description: "Mi Portfolio Personal: React, Next.js, Tailwind, Resend, Framer Motion",
+        image: "/images/projects/portfolio.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Nesticopng/Nestico-Portfolio",
+        previewUrl: "/"
+    },
+    {
+        id: 5,
         title: "Dashboard App",
         description:"Next.js App Router Course (by Vercel): TypeScript, Next.js, PostgreSQL",
-        image: "/images/projects/4.png",
+        image: "/images/projects/db.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Nesticopng/DB-Next.js",
         previewUrl: "https://db-next-js.vercel.app/"
