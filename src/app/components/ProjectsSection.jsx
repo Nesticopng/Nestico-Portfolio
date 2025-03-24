@@ -11,7 +11,7 @@ const projectsData = [
         description: "Atlas Wallet: Node.js, Express, Bcrypt.js, MongoDB, PayPal",
         image: "/images/projects/atlas.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/Nesticopng/Atlas-Proyecto-Full-Stack",
+        gitUrl: "https://github.com/Nesticopng/Atlas-Wallet-Website",
         previewUrl: "https://atlas-fgav.onrender.com/"
     },
     {
